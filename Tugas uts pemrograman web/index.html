@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas UTS Pemrograman Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            background-color: #e8c3a0;
+            padding: 20px;
+            border-radius: 30px 0 30px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image {
+            flex: 1;
+        }
+        .image img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .details {
+            flex: 1;
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .details div {
+            margin-bottom: 20px;
+        }
+        .label {
+            font-weight: bold;
+            color: #c0392b;
+            border: 2px solid #c0392b;
+            padding: 5px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        .input {
+            margin-top: 5px;
+            display: block;
+            width: 75%;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .link {
+            margin-top: 5px;
+            display: block;
+            width: 75%;
+            padding: 10px;
+            font-size: 1em;
+            text-decoration: none;
+            color: #000000;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="image/imagemhs.png" alt="Foto Mahasiswa">
+        </div>
+        <div class="details">
+            <div>
+                <span class="label">NAMA MAHASISWA</span>
+                <span class="input">REYNALDI PURNAMA LESTARI</span>
+            </div>
+            <div>
+                <span class="label">KELAS</span>
+                <span class="input">IT203</span>
+            </div>
+            <div>
+                <span class="label">TANGGAL LAHIR</span>
+                <span class="input">08 JUNI 2003</span>
+            </div>
+            <div>
+                <span class="label">PORTFOLIO</span>
+                <a href="portfolio.html" class="link">Lihat Portfolio</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
